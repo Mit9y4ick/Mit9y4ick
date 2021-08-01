@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Рассчитайте стоимость ремонта комнаты</legend>
+            <div>
+                <label >Общая площадь объекта по полу</label>
+                <input type="number" min="15" max="500" step="any">
+            </div>
+            <div>
+                <label>Состояние объекта</label>
+                <select>
+                    <option value="new">серый ключ</option>
+                    <option value="old">вторичное жилье</option>
+                </select>
+            </div>
+            <div>
+                <label>Тип ремонта</label>
+                <select>
+                    <option value="1">эконом</option>
+                    <option value="2">капитальный</option>
+                    <option value="3">дизайн-проект</option>
+                </select>
+            </div> 
+            <div>
+                <div>
+                    <p>Монтаж электропроводки</p>
+                    <input type="radio" name="electricalWiring" value="Да">Да
+                    <input type="radio" name="electricalWiring" value="Нет">Нет
+                </div>
+                <div>
+                    <p>Монтаж системы водоснабжения и канализации</p>
+                    <input type="radio" name="typeOfWaterSupply" value="Да">Да
+                    <input type="radio" name="typeOfWaterSupply" value="Нет">Нет
+                </div>
+            </div>
+            <div>
+                <div></div>
+                    <p>Замена радиаторов</p>
+                    <input type="radio" value="Да">Да
+                    <input type="radio" value="Нет">Нет
+                </div>
+                <div >
+                    <p class="podzag">Установка дверей</p>
+                    <input type="radio" value="Да">Да
+                    <input type="radio" value="Нет">Нет
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Отделка пола</p>
+                    <input type="checkbox">Ламинат или паркетная доска<br>
+                    <input type="checkbox">Массивная доска<br>
+                    <input type="checkbox">Штучный паркет<br>
+                    <input type="checkbox">Плитка<br>
+                </div>
+                <div>
+                    <p>Отделка стен</p>
+                    <input type="checkbox">Обои(флизелин/винил)<br>
+                    <input type="checkbox">Обои бумажные<br>
+                    <input type="checkbox">Обои под окрас<br>
+                    <input type="checkbox">Декоративные покрытия (декоративная штукатурка, венецианская штукатурка, прочее)<br>
+                </div>
+                <div>
+                    <p >Отделка потолков</p>
+                    <input type="checkbox">Окрас оштукатуренных потолков<br>
+                    <input type="checkbox">Окрас одноуровневых гипсокартонных потолков<br>
+                    <input type="checkbox">Окрас многоуровневых гипсокартонных потолков<br>
+                    <input type="checkbox">Натяжные потолки<br>
+                </div>
+            </div>
+            <div>
+                <button type="submit"><span>Рассчитать стоимость ремонта</span></button>
+            </div>      
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>Ориентировочная стоимость ремонтных работ на вашем объекте</label></td>
+                        <td><strong><input type="text"></strong></td>
+                        <td><span>рублей</span></td>
+                    </tr>
+                </tbody>
+            </table>
+         </form>
+    </fieldset>
+</body>
+</html>
