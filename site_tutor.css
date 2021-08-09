@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*==========header-nav===========*/
+.container{
+    margin: 30px 85px;
+}
+
+.promo{
+    background: url(Bg.png)  center/cover;
+    min-height: 600px;
+    padding-top: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_item a{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.125;
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px 15px;
+    transition: all .4s ease;
+}
+
+.nav_item a:hover{
+    border-radius: 4px;
+    width: 77px;
+    height: 22px;
+    background-color:#643a79;
+
+}
+
+.promo_content{
+    display: flex;
+    flex-direction:column;
+    padding-top: 140px;
+    align-items: center;
+}
+
+.promo_title{
+    font-size: 30px;
+    font-family: "Titillium Web";
+    color: rgb(247, 243, 234);
+    line-height: 1.158;
+    text-align: center;
+    padding: 20px;
+}
+
+.form_btn{
+    margin: 60px;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(235, 125, 75);
+    width: 293px;
+    height: 70px;
+    line-height: 1.5;
+    border: none;
+    border-radius: 5px;
+}
+
+/*===========service===============*/
+
+.services{
+    background: url(servicebg.png)  center/cover;
+    min-height: 860px;
+    padding-top: 15px;
+}
+
+.services_text{
+    font-size: 45px;
+    font-family: "Titillium Web";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px; 
+}
+
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: #14a58c;
+    margin-left: calc(50% - 40px);
+}
+
+.services_littletext{
+    font-size: 20px;
+    font-family: "Titillium Web";
+    color: rgb(255, 255, 255);
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.services_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 60px;
+}
+
+.services_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.services_strong{
+    font-size: 24px;
+    font-family: "Titillium Web";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.services_descr{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Titillium Web";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: center;
+    width: 192px;
+    height: 64px;
+}
+
+/*=========our_team===============*/
+
+.our_team{
+    background: url(teambg.png)  center/cover;
+    min-height: 1030px;
+    padding-top: 15px;
+}
+
+.team_text{
+    font-size: 40px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.team_line{
+    height: 5px;
+    width: 80px;
+    background-color: #c8d9e5;
+    margin-left: calc(50% - 40px);
+}
+
+.team_littletext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.team_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 20px;
+}
+
+.team_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.team_strong{
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: "Titillium Web";
+    color: rgb(39, 40, 61);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.75;
+    text-align: center;
+}
+
+.team_prof{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Titillium Web";
+    color: rgb(48, 186, 231);
+    line-height: 1.125;
+    text-align: center; 
+}
+
+.team_descr{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.team_social{
+    margin-top: 30px;
+}
+
+.team_socialicon{
+    padding: 0 3px;
+}
+
+/*=========skills=============*/
+
+.skills{
+    background: url(skills.png) center/cover;
+    min-height: 730px;
+    padding-top: 15px;
+}
+
+.skills_text{
+    font-size: 40px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px; 
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.skills_line{
+    height: 5px;
+    width: 80px;
+    background-color: #c8d9e5;
+    margin-left: calc(50% - 40px);
+}
+
+.skills_littletext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.skills_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.skills_strong{
+    font-size: 24px;
+    font-family: "Titillium Web";
+    color: rgb(60, 71, 97);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.skills_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.services_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*=========portgolio===========*/
+
+.portfolio{
+    background-color: #ffdd99;
+    min-height: 1500px;
+    padding-top: 15px;
+}
+
+.portfolio_text{
+    font-size: 40px;
+    font-family: "Titillium Web";
+    color: #393939;
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.portfolio_line{
+    height: 5px;
+    width: 80px;
+    background-color: #ebc985;
+    margin-left: calc(50% - 40px);
+}
+
+.portfolio_littletext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: #393939;
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.portfolio_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 40px;
+    background-position: center;
+    margin: 0 400px;
+
+}
+
+.porfolio_item a{ 
+    font-weight: bold;
+    color: #393939;
+    background: rgba(0, 0, 0, 0.078);
+    font-size: 16px;
+    font-family: 'Titillium Web';
+    text-decoration: none;
+    text-transform: uppercase;  
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+    padding: 7px 25px;
+    transition: all .4s ease;
+    background-position: 40px 40px;
+
+}
+
+.porfolio_item a:hover{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 84px;
+    height: 25px;
+}
+
+.porfolio_example{
+    padding-top: 70px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.porfolio_etext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    line-height: 1.083;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.portfolio_btnpoz{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_btn{
+    border-radius: 4px;
+    background-color: rgb(23, 194, 164);
+    width: 320px;
+    height: 70px;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+/*==========testimonials============*/
+
+.testimonials{
+    background: url(testimonials.png) center/cover;
+    min-height: 1200px;
+    padding-top: 15px;
+}
+
+.testimonials_text{
+    font-size: 40px;
+    font-family: "Titillium Web";
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.testimonials_line{
+    height: 5px;
+    width: 80px;
+    background-color: #b73c6d;
+    margin-left: calc(50% - 40px);
+}
+
+.testimonials_littletext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: #ffffff;
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.testimonials_item{
+    margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    box-sizing: border-box;
+}
+	
+/*======gettouch=========*/
+
+.gettouch{
+    background: url(gettouchbg.png) center/cover;
+    min-height: 1300px;
+    padding-top: 15px;
+}
+
+
+.gettouch_text{
+    font-size: 40px;
+    font-family: "Titillium Web";
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;  
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.gettouch_line{
+    height: 5px;
+    width: 80px;
+    background-color: #273a71;
+    margin-left: calc(50% - 40px);
+}
+
+.gettouch_littletext{
+    font-size: 18px;
+    font-family: "Titillium Web";
+    color: #ffffff;
+    line-height: 1.444;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+.form-control{
+    padding-top: 75px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.form-control1{
+    height: 50px;
+    width: 400px;
+    flex-grow: 1;
+    background-color:#f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 30px;
+    border: 1px solid;
+}
+
+.form-control2{
+    height: 50px;
+    width: 400px;
+    flex-grow: 1;
+    background-color:#f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 30px;
+    border: 1px solid;
+
+}
+
+.form-control3{
+    height: 200px;
+    width: 400px;
+    align-self: flex-start;
+    background-color:#f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 30px;
+    flex: 1 100%;
+    border: 1px solid;
+}
