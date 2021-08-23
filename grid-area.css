@@ -8,10 +8,9 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr; 
-    grid-template-areas:
-                         "promo promo"
-                         "main main"
-                         "footer footer";
+    grid-template-areas:"promo promo"
+                        "main main"
+                        "footer footer";
 }
 
 main {
